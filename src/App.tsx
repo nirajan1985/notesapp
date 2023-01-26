@@ -15,13 +15,14 @@ function App() {
       date: new Date().toString(),
     },
   ]);
+
   return (
     <>
       <Header />
       <Container className="mt-5">
         <Row>
           <Col>
-            <NotesList />
+            <NotesList notes={notes} setNotes={setNotes} />
           </Col>
         </Row>
       </Container>

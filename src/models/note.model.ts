@@ -1,7 +1,7 @@
 export interface Note {
-  id: String;
-  title: String;
-  text: String;
-  color: String;
-  date: String;
+  id: string;
+  title: string;
+  text: string;
+  color: string;
+  date: string;
 }
