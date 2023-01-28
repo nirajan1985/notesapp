@@ -5,7 +5,7 @@ interface IHeaderProps {}
 
 const Header: React.FunctionComponent<IHeaderProps> = (props) => {
   return (
-    <Navbar fixed="top" bg="dark" variant="dark">
+    <Navbar fixed="top" bg="primary" variant="dark">
       <Container>
         <Navbar.Brand>Notes App</Navbar.Brand>
       </Container>

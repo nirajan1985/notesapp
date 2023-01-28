@@ -22,7 +22,7 @@ const NotesList: React.FunctionComponent<INotesListProps> = ({
   };
   return (
     <>
-      <h2 className="mt-3">Notes list </h2>
+      <h2 className="mt-3">Notes</h2>
       <div>{renderedNotes()}</div>
     </>
   );
