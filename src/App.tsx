@@ -29,7 +29,7 @@ function App() {
 
         <Row>
           <Col>
-            <CreateNotes />
+            <CreateNotes notes={notes} setNotes={setNotes} />
           </Col>
         </Row>
       </Container>
